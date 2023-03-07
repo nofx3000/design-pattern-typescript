@@ -1,0 +1,24 @@
+{
+  "name": "design-pattern-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nofx3000/design-pattern-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nofx3000/design-pattern-typescript/issues"
+  },
+  "homepage": "https://github.com/nofx3000/design-pattern-typescript#readme",
+  "dependencies": {
+    "@types/jsdom": "^21.1.0",
+    "jsdom": "^21.1.0"
+  }
+}
