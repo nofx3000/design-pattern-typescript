@@ -13,28 +13,28 @@ export class Subject {
   constructor() {}
   public register(
     state: SubjectState,
-    subjectName: string,
+    observerName: string,
     callback: () => any
   ) {
     if (!this.observers[state]) {
       this.observers[state] = [];
     }
     this.observers[state]?.push({
-      name: subjectName,
+      name: observerName,
       callback: callback,
     });
-    console.log(callback, "of", subjectName, "is registered");
+    console.log(callback, "of", observerName, "is registered");
   }
-  public unregister(state: SubjectState, subjectName: string) {
+  public unregister(state: SubjectState, observerName: string) {
     if (!this.observers[state]) {
       console.log(`there is no state: ${state}`);
       return;
     }
     const index = this.observers[state]?.findIndex((val, idx) => {
-      return subjectName === val.name;
+      return observerName === val.name;
     });
     this.observers[state]?.splice(index as number, 1);
-    console.log("unregistered");
+    console.log("unregistered", state, "of", observerName);
   }
   public broadcast(state: SubjectState) {
     this.observers[state]?.forEach((observer) => {
@@ -61,11 +61,7 @@ export class Observer {
   public on(state: SubjectState, callback: () => any) {
     this.subject.register(state, this.name, callback);
   }
+  public cancel(state: SubjectState) {
+    this.subject.unregister(state, this.name);
+  }
 }
-
-const s = new Subject();
-const o = new Observer("o", s);
-o.on("s2", () => {
-  console.log("oooo");
-});
-s.setState("s2");
