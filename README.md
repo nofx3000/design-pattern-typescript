@@ -1,4 +1,4 @@
-#### *Design Pattern Typescript🔥🔥🔥*
+# *Design Pattern Typescript🔥🔥🔥*
 
 This is a design pattern learning project implemented in Typescript
 
