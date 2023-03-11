@@ -10,15 +10,23 @@ Every folder provides some most common design pattern template and test file
 
 ```$ git clone git@github.com:nofx3000/design-pattern-typescript.git```
 
-1.Creational Patterns（创建型）
+Environment:
+
+运行环境
+
+📖Node.js v18.13.0
+
+✍️Typescript v4.9.5
+
+**1.Creational Patterns（创建型）**
 
 - <a href="https://github.com/nofx3000/design-pattern-typescript/tree/master/singleton">Singleton（单例模式）</a>
 
-2.Structural Patterns（结构型）
+**2.Structural Patterns（结构型）**
 
 - <a href="https://github.com/nofx3000/design-pattern-typescript/tree/master/proxy">Proxy（代理模式）</a>
 
-3.Behavioral Patterns（行为型）
+**3.Behavioral Patterns（行为型）**
 
 - <a href="https://github.com/nofx3000/design-pattern-typescript/tree/master/observer">Observer（观察者模式 或 发布-订阅模式）</a>
 - <a href="https://github.com/nofx3000/design-pattern-typescript/tree/master/iterator">Iterator（迭代器模式）</a>
