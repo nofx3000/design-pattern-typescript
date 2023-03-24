@@ -38,7 +38,7 @@ Environment:
 - <a href="https://github.com/nofx3000/design-pattern-typescript/tree/master/mediator">Mediator（中介者模式）</a>
 - <a href="https://github.com/nofx3000/design-pattern-typescript/tree/master/state">State（状态模式）</a>
 - <a href="https://github.com/nofx3000/design-pattern-typescript/tree/master/template_method">Template Method（模版方法模式）</a>
-- <a hef="https://github.com/nofx3000/design-pattern-typescript/tree/master/strategy">Stretagy（策略模式）</a>
+- <a href="https://github.com/nofx3000/design-pattern-typescript/tree/master/strategy">Stretagy（策略模式）</a>
 
 
 
