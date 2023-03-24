@@ -25,12 +25,20 @@ Environment:
 **2.Structural Patterns（结构型）**
 
 - <a href="https://github.com/nofx3000/design-pattern-typescript/tree/master/proxy">Proxy（代理模式）</a>
+- <a href="https://github.com/nofx3000/design-pattern-typescript/tree/master/adaptor">Adaptor（适配器模式）</a>
+- <a href="https://github.com/nofx3000/design-pattern-typescript/tree/master/composite">Composite（组合模式）</a>
+- <a href="https://github.com/nofx3000/design-pattern-typescript/tree/master/decorator">Decorator（装饰器模式）</a>
 
 **3.Behavioral Patterns（行为型）**
 
 - <a href="https://github.com/nofx3000/design-pattern-typescript/tree/master/observer">Observer（观察者模式 或 发布-订阅模式）</a>
 - <a href="https://github.com/nofx3000/design-pattern-typescript/tree/master/iterator">Iterator（迭代器模式）</a>
 - <a hef="https://github.com/nofx3000/design-pattern-typescript/tree/master/strategy">Stretagy（策略模式）</a>
+- <a href="https://github.com/nofx3000/design-pattern-typescript/tree/master/chain_of_responsbility">Chain of Resposibility（责任链模式）</a>
+- <a href="https://github.com/nofx3000/design-pattern-typescript/tree/master/command">Command（命令模式）</a>
+- <a href="https://github.com/nofx3000/design-pattern-typescript/tree/master/mediator">Mediator（中介者模式）</a>
+- <a href="https://github.com/nofx3000/design-pattern-typescript/tree/master/state">State（状态模式）</a>
+- <a href="https://github.com/nofx3000/design-pattern-typescript/tree/master/template_method">Template Method（模版方法模式）</a>
 
 
 
